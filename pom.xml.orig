@@ -10,7 +10,12 @@
   <dependencies>
     <dependency>
       <groupId>org.apache.maven.plugins</groupId>
-      <artifactId>maven-war-plugin</artifactId
+      <artifactId>maven-war-plugin</artifactId>
+<<<<<<< HEAD
+       <configuration>     
+        </configuration>
+=======
+>>>>>>> c8107db62b8e650d1c068a1cec6b36738affa8d2
       <version>2.2</version>
       <scope>test</scope>
     </dependency>
