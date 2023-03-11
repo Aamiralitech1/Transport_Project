@@ -9,10 +9,14 @@
   <url>http://maven.apache.org</url>
   <dependencies>
     <dependency>
-      <groupId>junit</groupId>
-      <artifactId>junit</artifactId>
-      <version>3.8.1</version>
+      <groupId>org.apache.maven.plugins</groupId>
+      <artifactId>maven-war-plugin</artifactId>
+       <configuration>
+          <webXml>web\WEB-INF\web.xml</webXml>        
+        </configuration>
+      <version>2.2</version>
       <scope>test</scope>
     </dependency>
   </dependencies>
 </project>
+~
