@@ -11,8 +11,7 @@
     <dependency>
       <groupId>org.apache.maven.plugins</groupId>
       <artifactId>maven-war-plugin</artifactId>
-       <configuration>
-          <webXml>web\WEB-INF\web.xml</webXml>        
+       <configuration>     
         </configuration>
       <version>2.2</version>
       <scope>test</scope>
